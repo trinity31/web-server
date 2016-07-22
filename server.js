@@ -21,7 +21,7 @@ app.use(middleware.logger);
 //about
 //About us
 app.get('/about', middleware.requireAuthentication, function (req, res) {
-	res.send('Coming soon!');
+	res.send('Coming soon!!');
 });
 
 app.use(express.static(__dirname + '/public'))
